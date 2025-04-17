@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase File Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase SDK -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js"></script>
+    <script type="module" src="scripts.js" ></script>
+</head>
+<body>
+    <h1>File Sharing App</h1>
+
+    <h2>Upload File</h2>
+    <input type="file" id="fileInput" />
+    <button id="uploadButton">Upload</button>
+
+    <h2>Available Files</h2>
+    <div id="fileList"></div>
+</body>
+</html>
